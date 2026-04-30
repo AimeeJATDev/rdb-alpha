@@ -296,3 +296,4 @@ find website boilerplate
 find website-boilerplate
 clear
 echo goodbye terminal
+exit
