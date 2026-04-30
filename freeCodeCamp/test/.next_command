@@ -233,3 +233,5 @@ find -name header.png
 find -name footer.jped
 find -name footer.jpeg
 mv images/footer.jpeg client/assets/images
+ls --color=auto
+find
