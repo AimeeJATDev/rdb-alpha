@@ -136,3 +136,4 @@ find
 mv lato.tff fonts
 mv lato.ttf
 mv lato.ttf fonts
+mv menlo.otf fonts
