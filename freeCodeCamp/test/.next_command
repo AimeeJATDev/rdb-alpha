@@ -277,3 +277,4 @@ echo from the command line >> README.md
 miore
 more
 more README.md
+echo for the freeCodeCamp bash lessons >> README.md
