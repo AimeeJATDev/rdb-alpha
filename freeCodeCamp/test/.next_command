@@ -172,3 +172,13 @@ ls --color=auto
 __vsc_prompt_cmd_original
 cd ..
 ls --color=auto
+find images
+find -a images
+find --help
+find -fprintf .jpg
+find -fprintf
+find -fprintf images
+find -fprint .jpeg
+find -fprintf .jpeg
+find images
+find -name images
