@@ -144,3 +144,5 @@ mkdir client src
 mkdir client/ src
 ls --color=auto
 mkdir client/src
+__vsc_prompt_cmd_original
+mv index.html client/src
