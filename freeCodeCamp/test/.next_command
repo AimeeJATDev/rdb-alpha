@@ -230,3 +230,5 @@ cd website
 ls --color=auto
 mv header.png client/assets/images
 find -name header.png
+find -name footer.jped
+find -name footer.jpeg
