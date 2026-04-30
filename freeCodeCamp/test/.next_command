@@ -248,3 +248,4 @@ find -name CodeRoad.svg
 touch CodeRoad.svg
 mv CodeRoad.svg client/assets/icons
 mv freeCodeCamp.svg client/assets/icons
+find
