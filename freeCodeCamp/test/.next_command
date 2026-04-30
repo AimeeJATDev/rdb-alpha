@@ -150,3 +150,4 @@ find
 mv index.js client.src
 mv client.src index.js
 mv index.js client/src
+mv styles.css client/src
