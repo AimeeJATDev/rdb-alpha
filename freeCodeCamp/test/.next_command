@@ -171,3 +171,4 @@ mv header.png ..
 ls --color=auto
 __vsc_prompt_cmd_original
 cd ..
+ls --color=auto
