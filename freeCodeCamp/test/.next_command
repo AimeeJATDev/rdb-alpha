@@ -85,3 +85,4 @@ ls --color=auto
 __vsc_prompt_cmd_original
 touch index.js
 touch .gitignore
+ls --color=auto
