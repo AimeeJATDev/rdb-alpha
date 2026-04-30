@@ -237,3 +237,4 @@ ls --color=auto
 find
 rmdir images
 rm images/background.jpg
+rmdir images
