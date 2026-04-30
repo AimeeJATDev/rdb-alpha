@@ -285,3 +285,7 @@ mv website website-boilerplate
 ls --color=auto
 copy --help
 cp --help
+mkdir toms-website
+rmdir toms-website
+cp website-boilerplate toms-website
+cp -r website-boilerplate toms-website
