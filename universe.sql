@@ -223,6 +223,8 @@ INSERT INTO public.galaxy VALUES (5, 'Bear Paw Galaxy', 'It resembles the appear
 INSERT INTO public.galaxy VALUES (6, 'Fried Egg Galaxy', 'Due to its similar appearance to a fried egg', 'Pegasus', 'Unbarred Spiral', NULL);
 INSERT INTO public.galaxy VALUES (7, 'Godzilla', 'Its extremely large size', 'Perseus', 'Barred Spiral', NULL);
 INSERT INTO public.galaxy VALUES (8, 'Grasshopper', 'Named after its appearance to a grasshopper', 'Lynx', 'Interacting', NULL);
+INSERT INTO public.galaxy VALUES (9, 'Eye of Sauron', 'Due to its resemblance to the Eye of Sauron from The Lord of the Rings', 'Canes Venatici', 'Immediate Spiral', 11.50);
+INSERT INTO public.galaxy VALUES (10, 'Small Magellanic Cloud', 'Named after Ferdinand Magellan', 'Tucana', 'Dwarf', 2.70);
 
 
 --
@@ -247,7 +249,7 @@ INSERT INTO public.galaxy VALUES (8, 'Grasshopper', 'Named after its appearance 
 -- Name: galaxy_galaxy_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 8, true);
+SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 10, true);
 
 
 --
