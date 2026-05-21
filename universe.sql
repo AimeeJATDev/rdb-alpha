@@ -121,7 +121,11 @@ ALTER SEQUENCE public.moon_moon_id_seq OWNED BY public.moon.moon_id;
 
 CREATE TABLE public.planet (
     planet_id integer NOT NULL,
-    name character varying(30) NOT NULL
+    name character varying(30) NOT NULL,
+    planet_type text,
+    moon_number integer,
+    has_rings boolean,
+    star_id integer NOT NULL
 );
 
 
@@ -246,6 +250,21 @@ INSERT INTO public.galaxy VALUES (10, 'Small Magellanic Cloud', 'Named after Fer
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.star VALUES (1, 'Sol', 'Yellow Star', 'G2V', 1);
+INSERT INTO public.star VALUES (2, 'Alpha Centauri', 'Yellow Star', 'G2V', 1);
+INSERT INTO public.star VALUES (3, 'Wolf 359', 'Red Dwarf', 'M6.5 Ve', 1);
+INSERT INTO public.star VALUES (4, 'Sirius A', 'White-Blue Star', 'A0mA1 Va', 1);
+INSERT INTO public.star VALUES (5, 'Epsilon Eridani', 'Orange Star', 'K2 V', 1);
+INSERT INTO public.star VALUES (6, 'Procyon A', 'Subgiant', 'F5IV', 1);
+INSERT INTO public.star VALUES (7, 'Alpheratz', NULL, 'B9p', 3);
+INSERT INTO public.star VALUES (8, 'Mirach', 'Red Giant', 'M0 III', 3);
+INSERT INTO public.star VALUES (9, 'HD 2421', NULL, 'A2Vs', 3);
+INSERT INTO public.star VALUES (10, 'GO And', 'Variable Star', 'A3VpSiSrCrEuKsn', 3);
+INSERT INTO public.star VALUES (11, 'HV 2112', 'Variable Star', 'M5.5 II', 10);
+INSERT INTO public.star VALUES (12, 'HV 11417', NULL, 'M5Ie', 10);
+INSERT INTO public.star VALUES (13, 'HD 5980', 'Luminous Blue Variable', 'LBV', 10);
+INSERT INTO public.star VALUES (14, 'HV 11423', 'Red Supergiant', 'M0 Iab', 10);
+INSERT INTO public.star VALUES (15, 'AT 2017be', NULL, NULL, 5);
 
 
 --
@@ -273,7 +292,7 @@ SELECT pg_catalog.setval('public.planet_planet_id_seq', 1, false);
 -- Name: star_star_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.star_star_id_seq', 1, false);
+SELECT pg_catalog.setval('public.star_star_id_seq', 15, true);
 
 
 --
@@ -338,6 +357,14 @@ ALTER TABLE ONLY public.star
 
 ALTER TABLE ONLY public.star
     ADD CONSTRAINT star_pkey PRIMARY KEY (star_id);
+
+
+--
+-- Name: planet planet_star_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.planet
+    ADD CONSTRAINT planet_star_id_fkey FOREIGN KEY (star_id) REFERENCES public.star(star_id);
 
 
 --
