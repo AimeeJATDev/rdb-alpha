@@ -244,6 +244,19 @@ INSERT INTO public.galaxy VALUES (10, 'Small Magellanic Cloud', 'Named after Fer
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.planet VALUES (1, 'Mercury', 'Terrestrial Planet', 0, false, 1);
+INSERT INTO public.planet VALUES (2, 'Venus', 'Terrestrial Planet', 0, false, 1);
+INSERT INTO public.planet VALUES (3, 'Earth', 'Terrestrial Planet', 1, false, 1);
+INSERT INTO public.planet VALUES (4, 'Mars', 'Terrestrial Planet', 2, false, 1);
+INSERT INTO public.planet VALUES (5, 'Jupiter', 'Gas Giant', 115, true, 1);
+INSERT INTO public.planet VALUES (6, 'Saturn', 'Gas Giant', 292, true, 1);
+INSERT INTO public.planet VALUES (7, 'Uranus', 'Ice Giant', 29, true, 1);
+INSERT INTO public.planet VALUES (8, 'Neptune', 'Ice Giant', 16, true, 1);
+INSERT INTO public.planet VALUES (9, 'Pluto', 'Dwarf Planet', 5, false, 1);
+INSERT INTO public.planet VALUES (10, 'Ceres', 'Dwarf Planet', 0, false, 1);
+INSERT INTO public.planet VALUES (11, 'Haumea', 'Dwarf Planet', 2, true, 1);
+INSERT INTO public.planet VALUES (12, 'Makemake', 'Dwarf Planet', 1, NULL, 1);
+INSERT INTO public.planet VALUES (13, 'Eris', 'Dwarf Planet', 1, NULL, 1);
 
 
 --
@@ -285,7 +298,7 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 1, false);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 1, false);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 13, true);
 
 
 --
