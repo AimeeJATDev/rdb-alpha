@@ -170,3 +170,4 @@ help if
 ./countdown.sh ar1 arg2 arg3
 ./countdown.sh ar1 arg2 arg3
 ./countdown.sh 4 arg2 arg3
+./countdown.sh 5 arg2 arg3
