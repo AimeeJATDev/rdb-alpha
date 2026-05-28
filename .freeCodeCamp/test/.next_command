@@ -177,3 +177,4 @@ help test
 ./countdown.sh 5 arg2 arg3
 [[4 -le 5]]
 [[ 4 -le 5 ]]
+echo $?
