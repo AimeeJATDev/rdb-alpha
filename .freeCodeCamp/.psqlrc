@@ -1,3 +1,5 @@
+\pset border 2
+\pset pager off
 \out | tee /workspace/queryResults.log
 \pset border 2
 \pset title ' '
