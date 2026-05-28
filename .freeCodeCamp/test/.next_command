@@ -97,3 +97,5 @@ ls --color=auto -l
 ls --color=auto -l ./questionnaire.sh
 ./questionnaire.sh
 ./questionnaire.sh
+./questionnaire.sh
+__vsc_prompt_cmd_original
