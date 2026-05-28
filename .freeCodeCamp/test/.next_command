@@ -42,3 +42,4 @@ echo hello bash
 touch project/questionnaire.sh
 touch questionnaire.sh
 echo hello questionnaire
+sh questionnaire.sh
