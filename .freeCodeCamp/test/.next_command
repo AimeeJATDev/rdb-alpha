@@ -187,3 +187,4 @@ __vsc_prompt_cmd_original
 badcommand
 bad_command
 ls --color=auto
+ls --color=auto -y
