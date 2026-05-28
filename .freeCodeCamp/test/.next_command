@@ -89,3 +89,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 bash questionnaire.sh
 which bash
 __vsc_prompt_cmd_original
+./questionnaire.sh
