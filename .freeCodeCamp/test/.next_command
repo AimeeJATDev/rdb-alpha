@@ -183,3 +183,6 @@ echo $?
 [[ 4 -ge 5 ]]
 __vsc_prompt_cmd_original
 [[ 10 -ne 5 ]]
+__vsc_prompt_cmd_original
+badcommand
+bad_command
