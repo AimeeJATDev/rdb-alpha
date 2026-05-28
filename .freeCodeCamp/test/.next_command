@@ -104,3 +104,4 @@ __vsc_prompt_cmd_original
 ./questionnaire.sh
 --help
 echo --help
+man echo
