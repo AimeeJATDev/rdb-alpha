@@ -371,3 +371,6 @@ echo $((J bingo.sh countdown.sh questionnaire.sh 5 + 25))
 J=$((I - 6))
 echo $((J bingo.sh countdown.sh questionnaire.sh 5 + 25))
 echo $J
+__vsc_prompt_cmd_original
+declare 0p
+declare -p
