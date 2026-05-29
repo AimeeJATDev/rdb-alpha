@@ -365,3 +365,4 @@ J=0
 J=$((I - 6))
 __vsc_prompt_cmd_original
 echo $J
+echo $((J bingo.sh countdown.sh questionnaire.sh 5 + 25))
