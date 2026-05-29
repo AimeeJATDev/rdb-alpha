@@ -363,3 +363,5 @@ echo $((I+4))
 echo $I
 J=0
 J=$((I - 6))
+__vsc_prompt_cmd_original
+echo $J
