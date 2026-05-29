@@ -12,12 +12,11 @@ then
   done
   '
   I=$1
-  while I >=0
+  while [[ $I -ge 0 ]]
   do
-    $I--
     echo $I
-    sleep 1
   done
+
 else 
   echo Include a positive integer as the first argument.
 fi
