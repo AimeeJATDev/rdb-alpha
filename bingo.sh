@@ -1,7 +1,7 @@
 #!/bin/bash
 #Bingo Number Generator
 
-NUMBER=$((RANDOM % 15+61))
+NUMBER=$((RANDOM % 75 + 1))
 TEXT="The next number is, "
 
 echo -e "\n~~ Bingo Number Generator ~~\n" 
