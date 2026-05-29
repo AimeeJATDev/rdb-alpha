@@ -374,3 +374,4 @@ echo $J
 __vsc_prompt_cmd_original
 declare 0p
 declare -p
+declare -p J
