@@ -15,6 +15,7 @@ then
   while [[ $I -ge 0 ]]
   do
     echo $I
+    ((I--))
   done
 
 else 
