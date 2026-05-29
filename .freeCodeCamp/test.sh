@@ -1,26 +1,8 @@
 #!/bin/bash
-#Program that counts down to zero from a given argument
+#Bingo Number Generator
 
-echo -e "\n~~ Countdown Timer ~~\n"
+NUMBER=5
 
-if [[ $1 -gt 0 ]]
-then
-  : 'for (( i = $1; i >= 0; i -- ))
-  do
-    echo $i
-    sleep 1
-  done
-  '
-  I=$1
-  while I >=0
-  do
-    $I--
-    echo $I
-    sleep 1
-  done
-else 
-  echo Include a positive integer as the first argument.
-fi
+echo -e "\n~~ Bingo Number Generator ~~\n"
 
-
-echo $I
+echo $NUMBER
