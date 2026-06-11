@@ -11,9 +11,10 @@ GET_FORTUNE() {
   read QUESTION
 }
 
-GET_FORTUNE
+until [[ $QUESTION == "test?" ]]
+do
+  GET_FORTUNE
+done
 
 echo ${RESPONSES[$N]}
 
-
-echo $QUESTION
