@@ -1,23 +1,8 @@
 #!/bin/bash
-#Bingo Number Generator
+#Program to tell a persons fortune
 
-NUMBER=$((RANDOM % 15+61))
-TEXT="The next number is, "
+echo -e "\n~~ Fortune Teller ~~\n"
 
-echo -e "\n~~ Bingo Number Generator ~~\n" 
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
 
-if (( $NUMBER <= 15 ))
-then
-  echo $TEXT B:$NUMBER
-elif [[ $NUMBER -le 30 ]]
-then
-  echo $TEXT I:$NUMBER
-elif (( $NUMBER < 46 ))
-then
-  echo $TEXT N:$NUMBER
-elif [[ $NUMBER -lt 61 ]]
-then
-  echo $TEXT G:$NUMBER
-else
-  echo $TEXT O:$NUMBER
-fi
+declare -p RESPONSES
