@@ -538,3 +538,4 @@ man function
 --help function
 __vsc_prompt_cmd_original
 help function
+./fortune.sh
