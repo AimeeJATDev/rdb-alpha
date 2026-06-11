@@ -531,3 +531,4 @@ echo ${ARR[*]}
 declare -p
 declare ARR -p
 declare -p ARR
+./fortune.sh
