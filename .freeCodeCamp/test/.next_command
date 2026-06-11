@@ -475,3 +475,4 @@ touch fortune.sh
 chmod -x fortune.sh
 chmod --help
 chmod +x fortune.sh
+./fortune.sh
