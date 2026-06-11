@@ -532,3 +532,4 @@ declare -p
 declare ARR -p
 declare -p ARR
 ./fortune.sh
+help
