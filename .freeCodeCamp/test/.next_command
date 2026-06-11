@@ -528,3 +528,6 @@ echo $ARR*
 echo $ARR bingo.sh countdown.sh fortune.sh questionnaire.sh
 echo $*ARR
 echo ${ARR[*]}
+declare -p
+declare ARR -p
+declare -p ARR
