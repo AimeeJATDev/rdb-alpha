@@ -636,3 +636,8 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 [[ 'hello world' =~ ^h.+d$ ]]
 VAR='hello world'
 echo $VAR
+[[ VAR =~ 'hello world' ]]
+[[ VAR == 'hello world' ]]
+[[ 'hello world' == VAR ]]
+[[ 'hello world' == $VAR ]]
+[[ $VAR == 'hello world' ]]
