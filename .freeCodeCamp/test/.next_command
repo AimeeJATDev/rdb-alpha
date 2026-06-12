@@ -633,3 +633,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 [[ hello =~ el ]]
 [[ 'hello world' =~ 'lo wor' ]]
 [[ 'hello world' =~ ^h ]]
+[[ 'hello world' =~ ^h.+d$ ]]
