@@ -13,8 +13,12 @@ GET_FORTUNE() {
 
 until [[ $QUESTION =~ \?$ ]]
 do
+  if [[ ! $1 ]]
+  then
+    echo ${RESPONSES[$N]}
+  fi
   GET_FORTUNE
 done
 
-echo ${RESPONSES[$N]}
+
 
