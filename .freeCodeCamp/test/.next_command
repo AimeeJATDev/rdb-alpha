@@ -742,3 +742,4 @@ clear
 help
 type help
 help type
+type echo
