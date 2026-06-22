@@ -52,6 +52,7 @@ do
     if [[ $FIRST != "first_name" ]]
     then
         # get major_id
+        MAJOR_ID=$($PSQL "SELECT major_id from majors WHERE major = '$MAJOR'")
         # if not found
         # set to null
         # insert student
