@@ -39,6 +39,7 @@ do
             COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
         fi
         # insert into majors_courses
+        INSERT_MAJORS_COURSES_RESULT=$($PSQL "INSERT INTO majors_courses(major_id, course_id) VALUES($MAJOR_ID, $COURSE_ID)")
     fi
 done
     
