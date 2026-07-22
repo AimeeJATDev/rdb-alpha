@@ -149,3 +149,4 @@ echo $NAME
 echo NAME
 echo Aimee
 echo Aimee
+echo $NAME
