@@ -141,3 +141,11 @@ read NAME < name.txt
 read NAME > name.txt
 read NAME < name.txt
 echo $NAME
+read NAME
+read NAME
+read NAME
+echo $NAME
+echo $NAME
+echo NAME
+echo Aimee
+echo Aimee
