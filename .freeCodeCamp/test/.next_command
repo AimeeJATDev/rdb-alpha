@@ -133,3 +133,4 @@ bad_command 2> stderr.txt
 echo hello bash > stdout.txt
 rm stderr
 read NAME
+echo $NAME
