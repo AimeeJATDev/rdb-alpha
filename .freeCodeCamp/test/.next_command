@@ -130,3 +130,4 @@ bad_command
 bad_command > stderr.txt
 bad_command > stderr 2> stderr.txt
 bad_command 2> stderr.txt
+echo hello bash > stdout.txt
