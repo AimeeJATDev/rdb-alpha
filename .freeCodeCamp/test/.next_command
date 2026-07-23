@@ -235,3 +235,6 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cat
 cat name.txt
+cat name.txt > name.txt
+cat > name.txt
+cat < name.txt
