@@ -238,3 +238,13 @@ cat name.txt
 cat name.txt > name.txt
 cat > name.txt
 cat < name.txt
+echo Aimee > cat < name.txt
+echo Aimee
+cat < name.txt
+echo Aimee > name.txt
+cat < name.txt
+echo Aimee > cat
+echo Aimee > cat
+echo Aimee
+echo Aimee
+echo Aimee
