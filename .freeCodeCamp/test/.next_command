@@ -270,3 +270,10 @@ echo < name.txt
 ./script.sh > name.txt
 ./script.sh < name.txt
 ./script.sh < name.txt 2> stderr.txt
+./script.sh < name.txt 2> stderr.txt > stout.txt
+./script.sh < name.txt 2> stderr.txt > stdout.txt
+rm stout.txt
+./script.sh < name.txt 2> stderr.txt > stdout.txt
+./script.sh < name.txt 2> stderr.txt > stdout.txt
+./script.sh < name.txt 2> stderr.txt > stdout.txt
+./script.sh < name.txt 2> stderr.txt > stdout.txt
