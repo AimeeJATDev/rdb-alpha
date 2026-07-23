@@ -249,3 +249,4 @@ echo Aimee
 echo Aimee
 echo Aimee
 touch script.sh
+chmod +x script.sh
