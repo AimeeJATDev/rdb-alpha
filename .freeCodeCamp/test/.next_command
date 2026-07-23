@@ -259,3 +259,13 @@ echo Aimee < stderr.txt
 echo Aimee > stderr.txt
 echo Aimee
 echo Aimee
+echo name.txt
+echo < name.txt
+echo < name.txt
+echo < name.txt
+echo name.txt
+echo > name.txt
+echo > name.txt
+echo < name.txt
+./script.sh > name.txt
+./script.sh < name.txt
