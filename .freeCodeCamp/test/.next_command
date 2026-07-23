@@ -258,3 +258,4 @@ echo Aimee
 echo Aimee < stderr.txt
 echo Aimee > stderr.txt
 echo Aimee
+echo Aimee
