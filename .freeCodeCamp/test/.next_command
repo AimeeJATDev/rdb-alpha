@@ -338,3 +338,12 @@ cat kitty_ipsum_1.txt 2> wc
 cat kitty_ipsum_1.txt > wc
 wc kitty_ipsum_1.txt
 wc < kitty_ipsum_1.txt
+rm wc
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+echo ~~ kitty_ipsum_info ~~ < kitty_info.txt
+echo ~~ kitty_ipsum_info ~~ > kitty_info.txt
+echo "~~ kitty_ipsum_info ~~" > kitty_info.txt
+rm kitty_info.txt
+echo "~~ kitty_ipsum_info ~~" > kitty_info.txt
+echo "~~ kitty_ipsum_1.txt info ~~" > kitty_info.txt
