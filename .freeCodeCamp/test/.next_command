@@ -322,3 +322,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cat kitty_ipsum_1.txt
 cat kitty_ipsum_2.txt
+wc kitty_ipsum_1
+wc kitty_ipsum_1.txt
