@@ -326,3 +326,4 @@ wc kitty_ipsum_1
 wc kitty_ipsum_1.txt
 man wc
 wc -l kitty_ipsum_1.txt
+wc -w kitty_ipsum_1.txt
