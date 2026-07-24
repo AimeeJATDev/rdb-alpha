@@ -332,3 +332,9 @@ man wc
 wc -m kitty_ipsum_1.txt
 wc kitty_ipsum_1.txt
 cat kitty_ipsum_1.txt
+cat kitty_ipsum_1.txt > wc
+cat kitty_ipsum_1.txt < wc
+cat kitty_ipsum_1.txt 2> wc
+cat kitty_ipsum_1.txt > wc
+wc kitty_ipsum_1.txt
+wc < kitty_ipsum_1.txt
