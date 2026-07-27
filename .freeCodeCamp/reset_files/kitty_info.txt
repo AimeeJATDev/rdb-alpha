@@ -1,3 +1,7 @@
 ~~ kitty_ipsum_1.txt info ~~
 
 Number of lines:
+27
+
+Number of words:
+332
