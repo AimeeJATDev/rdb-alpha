@@ -542,3 +542,6 @@ grep 'meow' kitty_ipsum_1.txt
 man greo
 man grep
 grep --color 'meow' kitty_ipsum_1.txt
+man grep
+grep -n 'meow' kitty_ipsum_1.txt
+grep --color -n 'meow' kitty_ipsum_1.txt
