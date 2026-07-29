@@ -654,3 +654,6 @@ sed 's/freecodecamp/f233C0d3C@mp/' name.txt
 sed 's/freecodecamp/f233C0d3C@mp/i' name.txt
 sed 's/freecodecamp/f233C0d3C@mp/i' name.txt >> kitty.info.txt
 sed 's/freecodecamp/f233C0d3C@mp/i' < name.txt
+rm kitty.info.txt
+cat name.txt
+cat name.txt
