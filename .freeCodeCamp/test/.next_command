@@ -650,3 +650,4 @@ sed 's/ee/33/' name.txt
 sed 's/ree/233/' name.txt
 sed 's/ree/233/' name.txt
 sed 's/free/f233/' name.txt
+sed 's/freecodecamp/f233C0d3C@mp/' name.txt
