@@ -646,3 +646,7 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 sed 's/r/2' name.txt
 sed 's/r/2/' name.txt
+sed 's/ee/33/' name.txt
+sed 's/ree/233/' name.txt
+sed 's/ree/233/' name.txt
+sed 's/free/f233/' name.txt
