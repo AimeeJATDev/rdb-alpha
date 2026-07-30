@@ -743,3 +743,4 @@ grep -o 'cat[a-z]*' kitty_ipsum_1.txt
 wc --help
 grep -o 'cat[a-z]*' kitty_ipsum_1.txt
 grep -o 'cat[a-z]*' kitty_ipsum_1.txt
+grep -o 'cat[a-z]*' kitty_ipsum_1.txt
