@@ -748,3 +748,7 @@ echo -e "\nLines they appear on:"
 echo -e "\nLines they appear on:" >> kitty_info.txt
 echo -e "\nLines that they appear on:" >> kitty_info.txt
 grep -n 'cat[a-z]*' kitty_ipsum_1.txt
+grep -n 'cat[a-z]*' kitty_ipsum_1.txt
+grep -n 'cat[a-z]*' kitty_ipsum_1.txt
+grep -n 'cat[a-z]*' kitty_ipsum_1.txt
+grep -n 'cat[a-z]*' kitty_ipsum_1.txt
