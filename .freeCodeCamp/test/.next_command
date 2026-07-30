@@ -711,3 +711,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 man sed
 __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
+grep -n 'meow[a-z]*' kitty_ipsum_1.txt
+grep -n 'meow[a-z]*' kitty_ipsum_1.txt
