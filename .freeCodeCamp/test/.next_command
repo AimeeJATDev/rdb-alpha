@@ -805,3 +805,19 @@ man wc
 cat kitty_ipsum_2.txt
 cat kitty_ipsum_2.txt
 echo -e "\nNumber of words:" >> kitty_info.txt
+man wc
+cat kitty_ipsum_2.txt -w > wc
+cat kitty_ipsum_2.txt -w < wc
+cat kitty_ipsum_2.txt < wc
+cat kitty_ipsum_2.txt > wc
+cat kitty_ipsum_2.txt > wc >> kitty_info.txt
+cat kitty_ipsum_2.txt -w > wc >> kitty_info.txt
+kitty_ipsum_2.txt -w > wc >> kitty_info.txt
+cat kitty_ipsum_2.txt 2> wc
+cat kitty_ipsum_2.txt -w 2> wc
+cat kitty_ipsum_2.txt -w > wc
+cat kitty_ipsum_2.txt -w 2> wc
+cat kitty_ipsum_2.txt -w 2> wc >> kitty_info.txt
+cat kitty_ipsum_2.txt -w < wc
+wc -w < kitty_ipsum_2.txt
+wc -w < kitty_ipsum_2.txt >> kitty_info.txt

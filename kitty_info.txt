@@ -38,3 +38,5 @@ Number of lines:
 28
 
 Number of words:
+
+307
