@@ -30,3 +30,15 @@ Lines that they appear on:
 21
 22
 26
+
+
+~~ kitty_ipsum_2.txt info ~~
+
+Number of lines:
+28
+
+Number of words:
+307
+
+Number of characters:
+1678
