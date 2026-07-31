@@ -826,3 +826,4 @@ cat kitty_ipsum_2.txt -c > wc >> kitty_info.txt
 cat kitty_ipsum_2.txt
 man wc
 cat kitty_ipsum_2.txt
+rm wc
