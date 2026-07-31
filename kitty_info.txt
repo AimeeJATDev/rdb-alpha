@@ -22,7 +22,7 @@ Lines that they appear on:
 Number of times cat, cats, or catnip appears:
 7
 
-Lines that they appear on:
+Lines that they appear on:"
 1
 3
 7
@@ -30,3 +30,6 @@ Lines that they appear on:
 21
 22
 26
+
+
+~~ kitty_ipsum_2.txt info ~~
