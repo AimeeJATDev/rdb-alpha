@@ -885,3 +885,22 @@ man grep
 grep -o --color meow[a-z]* kitty_ipsum_2.txt
 echo -e "\nLines that they appear on::" >> kitty_info.txt
 echo -e "\nLines that they appear on:" >> kitty_info.txt
+man sed
+grep -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o --color meow[a-z]* kitty_ipsum_2.txt
+grep -n -o meow[a-z]* kitty_ipsum_2.txt
+__vsc_prompt_cmd_original
+grep -n -o meow[a-z]* kitty_ipsum_2.txt
+grep -o meow[a-z]* kitty_ipsum_2.txt
+grep -o -n meow[a-z]* kitty_ipsum_2.txt
+grep -o -n meow[a-z]* kitty_ipsum_2.txt
+grep -n meow[a-z]* kitty_ipsum_2.txt
+grep -n meow[a-z]* kitty_ipsum_2.txt
