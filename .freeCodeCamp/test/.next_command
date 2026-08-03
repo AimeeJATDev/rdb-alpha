@@ -883,3 +883,5 @@ grep --color meow[a-z]* kitty_ipsum_2.txt
 man wc
 man grep
 grep -o --color meow[a-z]* kitty_ipsum_2.txt
+echo -e "\nLines that they appear on::" >> kitty_info.txt
+echo -e "\nLines that they appear on:" >> kitty_info.txt
