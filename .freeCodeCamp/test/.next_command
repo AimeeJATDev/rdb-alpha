@@ -1086,3 +1086,5 @@ cat stdin
 cat translate.sh
 cat translate.sh > stdin
 rm stdin
+./translate.sh
+./translate.sh kitty_ipsum_1.txt
