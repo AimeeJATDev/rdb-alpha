@@ -12,6 +12,7 @@ MAIN_MENU() {
 }
 
 RENT_MENU() {
+  echo "Rent Menu"
 }
 
 MAIN_MENU
