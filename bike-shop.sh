@@ -20,5 +20,6 @@ RETURN_MENU() {
 }
 
 EXIT() {
+  echo -e "\nThank you for stopping in.\n"
 }
 MAIN_MENU
