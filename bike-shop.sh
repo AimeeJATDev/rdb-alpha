@@ -18,4 +18,7 @@ RENT_MENU() {
 RETURN_MENU() {
   echo "Return Menu"
 }
+
+EXIT() {
+}
 MAIN_MENU
