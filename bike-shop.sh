@@ -1,8 +1,14 @@
 #!/bin/bash
 
+PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"
+
 echo -e "\n~~~~~ Bike Rental Shop ~~~~~\n"
 
 MAIN_MENU() {
+  if [[ $1 ]] 
+  then
+    echo -e "\n$1"
+  fi
   echo "How may I help you?"
   echo -e "\n1. Rent a bike"
   echo "2. Return a bike"
@@ -19,7 +25,9 @@ MAIN_MENU() {
 }
 
 RENT_MENU() {
-  echo "Rent Menu"
+  # get available bikes
+  # if no bikes available
+  # send to main menu
 }
 
 RETURN_MENU() {
