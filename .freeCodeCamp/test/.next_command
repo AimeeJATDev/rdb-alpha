@@ -844,3 +844,4 @@ sudo service postgresql start
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
