@@ -56,9 +56,13 @@ RENT_MENU() {
       then
         # send to main menu
         MAIN_MENU "That bike is not available."
+      else
+        # get customer info
+        # if customer doesn't exist
+        # get new customer name
+        # insert new customer
       fi
     fi
-
   fi
 }
 
