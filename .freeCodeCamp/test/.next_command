@@ -1238,3 +1238,7 @@ man sed
 __vsc_prompt_cmd_original
 man sed
 echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
+./bike-shop.sh
+sudo service start postgresql start
+sudo service postgresql start
+./bike-shop.sh
