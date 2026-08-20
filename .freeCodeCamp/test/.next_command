@@ -1242,3 +1242,4 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 sudo service start postgresql start
 sudo service postgresql start
 ./bike-shop.sh
+./bike-shop.sh
