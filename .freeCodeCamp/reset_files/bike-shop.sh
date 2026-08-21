@@ -89,14 +89,23 @@ RENT_MENU() {
         BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
         
         # send to main menu
-        MAIN_MENU "I have put you down for the $BIKE_INFO_FORMATTED Bike, $CUSTOMER_NAME."
+        MAIN_MENU "I have put you down for the $BIKE_INFO_FORMATTED Bike, $(echo $CUSTOMER_NAME | sed -r 's/^ *| *$//g')."
       fi
     fi
   fi
 }
 
 RETURN_MENU() {
-  echo "Return Menu"
+  # get customer info
+  echo -e "\nWhat's your phone number?"
+  read PHONE_NUMBER
+
+  CUSTOMER_ID=$($PSQL "SELECT customer_id FROM customers WHERE phone = '$PHONE_NUMBER'")
+
+  # if not found
+
+  # send to main menu
+
 }
 
 EXIT() {
