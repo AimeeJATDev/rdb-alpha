@@ -112,8 +112,18 @@ RETURN_MENU() {
         echo "$BIKE_ID) $SIZE\" $TYPE Bike"
       done
       # ask for bike to return
+      echo -e "\nWhich one would you like to return?"
+      read BIKE_ID_TO_RETURN
       # if not a number
-      # send to main menu
+      if [[ ! $BIKE_ID_TO_RETURN =~ ^[0-9]+$ ]]
+      then
+        # send to main menu
+        MAIN_MENU "That is not a valid bike number."
+      else
+        # check if input is rented
+        # if input not rented
+        # send to main menu
+      fi
     fi
   fi  
 }
