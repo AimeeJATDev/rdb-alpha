@@ -101,3 +101,5 @@ bash castle.sh
 nano castle.sh
 bash castle.sh
 nano castle.sh
+__vsc_prompt_cmd_original
+bash castle.sh
