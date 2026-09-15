@@ -129,3 +129,4 @@ git init
 \l -a
 /l -a
 ls --color=auto -a
+git status
