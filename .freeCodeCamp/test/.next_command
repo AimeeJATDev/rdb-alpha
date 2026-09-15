@@ -136,3 +136,4 @@ git status
 touch README.md
 git status
 git add README.md
+git status
