@@ -134,3 +134,4 @@ __vsc_prompt_cmd_original
 git checkout -b main
 git status
 touch README.md
+git status
