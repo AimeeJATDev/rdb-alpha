@@ -143,3 +143,5 @@ git add sql_reference.json
 git status
 git commit -m "Initial commit"
 git status
+git loh
+git log
