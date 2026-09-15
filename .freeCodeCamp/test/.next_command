@@ -138,3 +138,4 @@ git status
 git add README.md
 git status
 touch sql_reference.json
+git status
