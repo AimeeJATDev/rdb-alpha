@@ -125,3 +125,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 mkdir sql_reference
 cd sql_reference
 git init
+-a
+\l -a
+/l -a
+ls --color=auto -a
