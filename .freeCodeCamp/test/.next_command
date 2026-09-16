@@ -233,3 +233,5 @@ cd sql_reference
 git status
 git diff
 git add sql_reference.json
+gti status
+git status
