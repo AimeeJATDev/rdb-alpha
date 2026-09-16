@@ -236,3 +236,4 @@ git add sql_reference.json
 gti status
 git status
 git commit -m "feat: add create database reference"
+git log
