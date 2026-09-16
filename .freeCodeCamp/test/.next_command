@@ -231,3 +231,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git status
 cd sql_reference
 git status
+git diff
