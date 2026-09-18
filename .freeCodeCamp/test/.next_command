@@ -360,3 +360,4 @@ git add
 git add sql_reference.json
 git commit -m "feat: add drop table reference"
 git checkout main
+git branch
