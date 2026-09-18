@@ -352,3 +352,4 @@ cd sql-reference
 cd sql_reference
 git branch
 git branch -d feat/add-create-table-reference
+git branch
