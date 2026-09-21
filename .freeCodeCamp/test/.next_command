@@ -409,3 +409,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cd sql-reference
 cd sql_reference
 git checkout -b feat/add-column-references
+git diff
