@@ -430,3 +430,6 @@ git delete fix/create-table-syntax
 git --help
 git help -a
 git branch -d fix/create-table-syntax
+git branch
+git branch feat/add-column-references
+git checkout feat/add-column-references
