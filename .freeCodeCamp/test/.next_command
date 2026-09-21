@@ -423,3 +423,4 @@ git diff
 git add sql_reference.json
 git commit -m "fix: create table syntax"
 git checkout main
+git branch
