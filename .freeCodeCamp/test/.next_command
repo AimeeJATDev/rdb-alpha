@@ -410,3 +410,6 @@ cd sql-reference
 cd sql_reference
 git checkout -b feat/add-column-references
 git diff
+git add
+git add sql_reference
+git add sql_reference.json
