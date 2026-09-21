@@ -439,3 +439,4 @@ git log --oneline
 git status
 git diff
 git add sql_reference.json
+git commit -m "feat: add drop column reference"
