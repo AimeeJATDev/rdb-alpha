@@ -426,3 +426,7 @@ git checkout main
 git branch
 git merge fix/create-table-syntax main
 git log --oneline
+git delete fix/create-table-syntax
+git --help
+git help -a
+git branch -d fix/create-table-syntax
