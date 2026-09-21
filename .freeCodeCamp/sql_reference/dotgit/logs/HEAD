@@ -9,3 +9,15 @@ a5de9441f554604a1418a7ea46d836ea9ca09613 684afe786ecb33e590f7dd03d9d53b6b7770684
 18f0344599cd58dd4b0d2c54baaa6fb4a6a35523 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631242829 -0500	commit: feat: add drop table reference
 0ae0bd456114d57c6587643a47a9e3399d2ad88d 18f0344599cd58dd4b0d2c54baaa6fb4a6a35523 moT01 <20648924+moT01@users.noreply.github.com> 1631242849 -0500	checkout: moving from feat/add-drop-table-reference to main
 18f0344599cd58dd4b0d2c54baaa6fb4a6a35523 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631242904 -0500	merge feat/add-drop-table-reference: Fast-forward
+0ae0bd456114d57c6587643a47a9e3399d2ad88d 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631242994 -0500	checkout: moving from main to feat/add-column-references
+0ae0bd456114d57c6587643a47a9e3399d2ad88d e3d4ca9c8e3d96568a3174de9cc889b03e03a5f0 moT01 <20648924+moT01@users.noreply.github.com> 1631243090 -0500	commit: feat: add column reference
+e3d4ca9c8e3d96568a3174de9cc889b03e03a5f0 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631243115 -0500	checkout: moving from feat/add-column-references to main
+0ae0bd456114d57c6587643a47a9e3399d2ad88d 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631243162 -0500	checkout: moving from main to fix/create-table-syntax
+0ae0bd456114d57c6587643a47a9e3399d2ad88d d3609d2b8047c0d7da867b65072151d8eb69484e moT01 <20648924+moT01@users.noreply.github.com> 1631243280 -0500	commit: fix: create table syntax
+d3609d2b8047c0d7da867b65072151d8eb69484e 0ae0bd456114d57c6587643a47a9e3399d2ad88d moT01 <20648924+moT01@users.noreply.github.com> 1631243306 -0500	checkout: moving from fix/create-table-syntax to main
+0ae0bd456114d57c6587643a47a9e3399d2ad88d d3609d2b8047c0d7da867b65072151d8eb69484e moT01 <20648924+moT01@users.noreply.github.com> 1631243331 -0500	merge fix/create-table-syntax: Fast-forward
+d3609d2b8047c0d7da867b65072151d8eb69484e e3d4ca9c8e3d96568a3174de9cc889b03e03a5f0 moT01 <20648924+moT01@users.noreply.github.com> 1631243403 -0500	checkout: moving from main to feat/add-column-references
+e3d4ca9c8e3d96568a3174de9cc889b03e03a5f0 d3609d2b8047c0d7da867b65072151d8eb69484e moT01 <20648924+moT01@users.noreply.github.com> 1631243449 -0500	rebase: checkout main
+d3609d2b8047c0d7da867b65072151d8eb69484e 1719dcc754091294beb150e10575fbd88cf297a6 moT01 <20648924+moT01@users.noreply.github.com> 1631243449 -0500	rebase: feat: add column reference
+1719dcc754091294beb150e10575fbd88cf297a6 1719dcc754091294beb150e10575fbd88cf297a6 moT01 <20648924+moT01@users.noreply.github.com> 1631243449 -0500	rebase finished: returning to refs/heads/feat/add-column-references
+1719dcc754091294beb150e10575fbd88cf297a6 d2ad723e4a7089d1893d021f3eb716ceae282395 moT01 <20648924+moT01@users.noreply.github.com> 1631243565 -0500	commit: feat: add drop column reference
