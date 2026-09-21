@@ -415,3 +415,5 @@ git add sql_reference
 git add sql_reference.json
 git commit -m "feat: add column reference"
 git log --oneline
+git checkout -b main
+git checkout main
