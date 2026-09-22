@@ -540,3 +540,4 @@ git rebase main
 git status
 git add sql_reference.json
 git status
+git rebase --continue
