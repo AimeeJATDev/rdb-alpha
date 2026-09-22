@@ -533,3 +533,4 @@ git add sql_reference.json
 git commit -m "feat: add insert row reference"
 git checkout main
 git branch
+git merge feat/add-insert-row-reference main
