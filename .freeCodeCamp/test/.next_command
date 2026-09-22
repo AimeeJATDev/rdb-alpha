@@ -526,3 +526,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cd sql_reference
 git checkout main
+git checkout -b feat/add-insert-row-reference
