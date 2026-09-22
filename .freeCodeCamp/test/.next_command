@@ -537,3 +537,4 @@ git merge feat/add-insert-row-reference main
 git log --oneline
 git checkout feat/add-column-references
 git rebase main
+git status
