@@ -527,3 +527,6 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cd sql_reference
 git checkout main
 git checkout -b feat/add-insert-row-reference
+git status
+git diff
+git add sql_reference.json
