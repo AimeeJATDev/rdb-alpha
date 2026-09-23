@@ -692,3 +692,4 @@ git stash list
 git stash
 __vsc_prompt_cmd_original
 git stash list
+git stash show stash@{1}
