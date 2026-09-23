@@ -703,3 +703,4 @@ git checkout -b feat/add-more-row-references
 git stash list
 git stash pop
 git stash list
+git diff
