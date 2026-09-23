@@ -679,3 +679,4 @@ cd sql_reference
 git status
 git stash
 git status
+git stash list
