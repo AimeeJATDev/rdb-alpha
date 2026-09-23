@@ -690,3 +690,5 @@ git stash show -p
 git stash apply
 git stash list
 git stash
+__vsc_prompt_cmd_original
+git stash list
