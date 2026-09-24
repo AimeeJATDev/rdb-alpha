@@ -780,3 +780,5 @@ git checkout feat/add-more-row-references
 git diff
 git add sql_reference.json
 git commit -m "feat: add delete row reference"
+__vsc_prompt_cmd_original
+git checkout main
