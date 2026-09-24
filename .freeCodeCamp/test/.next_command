@@ -761,3 +761,4 @@ git branch
 git checkout feat/add-column-references
 git rebase main
 git rebase main
+git status
