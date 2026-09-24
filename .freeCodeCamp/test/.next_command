@@ -767,3 +767,5 @@ git rebase --continue
 git add sql_reference.json
 git status
 git rebase --continue
+git log --one line
+git log --oneline
