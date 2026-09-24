@@ -762,3 +762,6 @@ git checkout feat/add-column-references
 git rebase main
 git rebase main
 git status
+__vsc_prompt_cmd_original
+git rebase --continue
+git add sql_reference.json
