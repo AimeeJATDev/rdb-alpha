@@ -765,3 +765,4 @@ git status
 __vsc_prompt_cmd_original
 git rebase --continue
 git add sql_reference.json
+git status
