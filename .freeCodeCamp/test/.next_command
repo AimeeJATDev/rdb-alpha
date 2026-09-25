@@ -884,3 +884,4 @@ git diff
 git add sql_reference.json
 git commit -m "feat add unique reference"
 git commit -m "feat: add unique reference"
+git reset HEAD~1
