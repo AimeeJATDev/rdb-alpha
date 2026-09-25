@@ -880,3 +880,5 @@ git rebase main
 git add sql_reference.json
 git status
 git rebase --continue
+git diff
+git add sql_reference.json
