@@ -786,3 +786,121 @@ git merge feat/add-more-row-references main
 git branch -d feat/add-more-row-references
 git branch -b fix/add-missing-rename-references
 git checkout -b fix/add-missing-rename-references
+[ -d "$HOME/bin" ]
+[ -d "$HOME/.local/bin" ]
+'/vscode/bin/linux-x64/04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/node' -p '"4f6336bfd487" + JSON.stringify(process.env) + "4f6336bfd487"'
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ "${VSCODE_PREVENT_SHELL_HISTORY:-}" = "1" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[ -z "${VSCODE_PYTHON_AUTOACTIVATE_GUARD:-}" ]
+export VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+[ -n "${VSCODE_PYTHON_BASH_ACTIVATE:-}" ]
+for var in "${!VSCODE_PYTHON_@}"
+case "$var" in
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups|ignorespace).*"
+[[ "${HISTCONTROL:-}" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[ -n "$STARSHIP_SESSION_KEY" ]
+[ -n "$POSH_SESSION_ID" ]
+builtin printf '\e]633;P;HasRichCommandDetection=True\a'
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ "${VSCODE_PREVENT_SHELL_HISTORY:-}" = "1" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[ -z "${VSCODE_PYTHON_AUTOACTIVATE_GUARD:-}" ]
+export VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+[ -n "${VSCODE_PYTHON_BASH_ACTIVATE:-}" ]
+for var in "${!VSCODE_PYTHON_@}"
+case "$var" in
+__vsc_regex_environment="^CYGWIN*|MINGW*|MSYS*"
+[[ "$(uname -s)" =~ $__vsc_regex_environment ]]
+__vsc_is_windows=0
+__vsc_regex_histcontrol=".*(erasedups|ignoreboth|ignoredups|ignorespace).*"
+[[ "${HISTCONTROL:-}" =~ $__vsc_regex_histcontrol ]]
+__vsc_history_verify=1
+builtin unset __vsc_regex_environment
+builtin unset __vsc_regex_histcontrol
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[ -n "$STARSHIP_SESSION_KEY" ]
+[ -n "$POSH_SESSION_ID" ]
+builtin printf '\e]633;P;HasRichCommandDetection=True\a'
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+cd sql_reference
+git diff
+git add sql_reference.json
+__vsc_prompt_cmd_original
+git commit -m "fix: add missing rename database reference"
+git branch
+git checkout feat/add-column-references
+git rebase main
+git add sql_reference.json
+git status
+git rebase --continue
+git diff
+git add sql_reference.json
+git commit -m "feat add unique reference"
+git commit -m "feat: add unique reference"
+git reset HEAD~1
+git log --online
+git log --oneline
+__vsc_prompt_cmd_original
+git status
+git diff
+git add sql_reference.json
+git commit -m "feat: add unique reference"
+git revert HEAD
+__vsc_prompt_cmd_original
+git log --oneline
+git show
+git show HEAD ~1
+git show HEAD~1
+git rebase --interactive HEAD~2
+git log --oneline
+git rebase --interactive --root
+git log --oneline
+git rebase main
+git log --oneline
