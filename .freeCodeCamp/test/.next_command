@@ -889,3 +889,4 @@ git log --online
 git log --oneline
 __vsc_prompt_cmd_original
 git status
+git diff
