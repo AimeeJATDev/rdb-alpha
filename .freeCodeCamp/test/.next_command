@@ -891,3 +891,4 @@ __vsc_prompt_cmd_original
 git status
 git diff
 git add sql_reference.json
+git commit -m "feat: add unique reference"
