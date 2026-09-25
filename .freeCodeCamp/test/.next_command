@@ -872,3 +872,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 cd sql_reference
 git diff
 git add sql_reference.json
+__vsc_prompt_cmd_original
+git commit -m "fix: add missing rename database reference"
