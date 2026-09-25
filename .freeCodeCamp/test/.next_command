@@ -877,3 +877,4 @@ git commit -m "fix: add missing rename database reference"
 git branch
 git checkout feat/add-column-references
 git rebase main
+git add sql_reference.json
