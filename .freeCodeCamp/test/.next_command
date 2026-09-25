@@ -896,3 +896,5 @@ git revert HEAD
 __vsc_prompt_cmd_original
 git log --oneline
 git show
+git show HEAD ~1
+git show HEAD~1
