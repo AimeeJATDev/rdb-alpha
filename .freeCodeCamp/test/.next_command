@@ -894,3 +894,4 @@ git add sql_reference.json
 git commit -m "feat: add unique reference"
 git revert HEAD
 __vsc_prompt_cmd_original
+git log --oneline
