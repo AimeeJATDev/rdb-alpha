@@ -956,3 +956,4 @@ git log -1
 git checkout main
 git branch
 git merge feat/add-column-references main
+git branch -d feat/add-column-references
