@@ -1008,3 +1008,4 @@ cd sql_reference
 git diff
 git add sql_reference.json
 git commit -m "fix: add missing rename table reference"
+git log -5 --oneline
