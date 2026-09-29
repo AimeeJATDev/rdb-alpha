@@ -1073,3 +1073,4 @@ __vsc_prompt_cmd_original
 git checkout -b feat/add-gitignore
 touch .env
 git status
+touch .gitignore
