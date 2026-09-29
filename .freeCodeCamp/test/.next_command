@@ -1071,3 +1071,4 @@ git branch -d feat/add-gitignore
 cd sql_reference
 __vsc_prompt_cmd_original
 git checkout -b feat/add-gitignore
+touch .env
