@@ -1018,3 +1018,4 @@ git branch
 git merge fix/add-missing-rename-references main
 git branch
 git branch -d fix/add-missing-rename-references
+git log --oneline
