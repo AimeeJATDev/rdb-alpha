@@ -1072,3 +1072,4 @@ cd sql_reference
 __vsc_prompt_cmd_original
 git checkout -b feat/add-gitignore
 touch .env
+git status
