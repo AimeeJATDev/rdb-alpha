@@ -1078,3 +1078,5 @@ git status
 git status
 __vsc_prompt_cmd_original
 git add .gitignore
+git commit feat: add .gitignore
+git commit -m "feat: add .gitignore"
