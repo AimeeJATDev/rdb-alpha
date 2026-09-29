@@ -1081,3 +1081,4 @@ git add .gitignore
 git commit feat: add .gitignore
 git commit -m "feat: add .gitignore"
 touch sample.env
+git status
