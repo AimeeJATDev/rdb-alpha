@@ -1076,3 +1076,5 @@ git status
 touch .gitignore
 git status
 git status
+__vsc_prompt_cmd_original
+git add .gitignore
