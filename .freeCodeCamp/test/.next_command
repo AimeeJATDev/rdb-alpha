@@ -1013,3 +1013,4 @@ git rebase --interactive HEAD~5
 git rebase --interactive HEAD~2
 git log -1 --oneline
 git log -1
+git checkout main
