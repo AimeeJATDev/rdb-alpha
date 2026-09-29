@@ -1087,3 +1087,4 @@ git commit -m "feat: add sample.env"
 git log --online
 git log --oneline
 git log -5 --oneline
+git rebase --interactive HEAD~2
