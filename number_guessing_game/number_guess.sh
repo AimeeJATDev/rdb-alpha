@@ -9,26 +9,26 @@ echo "Enter your username:"
 read USERNAME
 
 USERNAME_RESULT=$($PSQL "SELECT * FROM score_board WHERE username = '$USERNAME'")
-GAMES_PLAYED_RESULT=$($PSQL "SELECT games_played FROM score_board WHERE username ='$USERNAME'")
 
 if [[ -z $USERNAME_RESULT ]]
 then
   echo "Welcome, $USERNAME! It looks like this is your first time here."
-  echo $($PSQL "INSERT INTO score_board(username, games_played, best_game) VALUES('$USERNAME', 1, 0)")
+  INSERT_USERNAME=$($PSQL "INSERT INTO score_board(username, games_played, best_game) VALUES('$USERNAME', 1, 0)")
 else
   echo "$USERNAME_RESULT" | while read ID BAR USERNAME BAR GAMES_PLAYED BAR BEST_GAME
   do
     echo "Welcome back, $USERNAME! You have played $GAMES_PLAYED games, and your best game took $BEST_GAME guesses."
-    echo "$GAMES_PLAYED_RESULT"
-    #TODO: Complete "fix:"
+    GAMES_PLAYED_NEW=$(($GAMES_PLAYED + 1))
+    INSERT_GAMES_PLAYED=$($PSQL "UPDATE score_board SET games_played = $GAMES_PLAYED_NEW WHERE username = '$USERNAME'")
   done
 fi
 
 RANDOM_NUM=$(($MIN + $RANDOM % $MAX))
-echo "$RANDOM_NUM"
+#echo "$RANDOM_NUM"
 
 echo "Guess the secret number between 1 and 1000:"
 read GUESS
+GUESS_NUM=1
 
 REGEX_CHK='[^0-9]'
 
@@ -37,6 +37,19 @@ do
   if [[ -z $GUESS || $GUESS =~ $REGEX_CHK ]]
   then
     echo "That is not an integer, guess again:"
-    read GUESS
+  elif [[ $GUESS > $RANDOM_NUM ]]
+  then
+    echo "It's lower than that, guess again:"
+  elif [[ $GUESS < $RANDOM_NUM ]]
+  then
+    echo "It's higher than that, guess again:"
   fi 
+  read GUESS
+  GUESS_NUM=$(($GUESS_NUM + 1))
 done
+
+echo "You guessed it in $GUESS_NUM tries. The secret number was $RANDOM_NUM. Nice job!"
+if [[ $GUESS_NUM < $BEST_GAME ]]
+then
+  INSERT_BEST_GAME=$($PSQL "UPDATE score_board SET best_game = $GUESS_NUM")
+fi
