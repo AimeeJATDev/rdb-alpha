@@ -9,6 +9,7 @@ echo "Enter your username:"
 read USERNAME
 
 USERNAME_RESULT=$($PSQL "SELECT * FROM score_board WHERE username = '$USERNAME'")
+BEST_GAME_RESULT=0
 
 if [[ -z $USERNAME_RESULT ]]
 then
@@ -20,16 +21,15 @@ else
     echo "Welcome back, $USERNAME! You have played $GAMES_PLAYED games, and your best game took $BEST_GAME guesses."
     GAMES_PLAYED_NEW=$(($GAMES_PLAYED + 1))
     INSERT_GAMES_PLAYED=$($PSQL "UPDATE score_board SET games_played = $GAMES_PLAYED_NEW WHERE username = '$USERNAME'")
+    BEST_GAME_RESULT=$BEST_GAME
   done
 fi
 
 RANDOM_NUM=$(($MIN + $RANDOM % $MAX))
-#echo "$RANDOM_NUM"
 
 echo "Guess the secret number between 1 and 1000:"
 read GUESS
 GUESS_NUM=1
-
 REGEX_CHK='[^0-9]'
 
 while [[ $GUESS != $RANDOM_NUM ]]
@@ -49,7 +49,8 @@ do
 done
 
 echo "You guessed it in $GUESS_NUM tries. The secret number was $RANDOM_NUM. Nice job!"
-if [[ $GUESS_NUM < $BEST_GAME ]]
+
+if [[ $BEST_GAME_RESULT = 0 || $GUESS_NUM < $BEST_GAME_RESULT ]]
 then
   INSERT_BEST_GAME=$($PSQL "UPDATE score_board SET best_game = $GUESS_NUM")
 fi
