@@ -90,13 +90,18 @@ ALTER TABLE ONLY public.score_board ALTER COLUMN id SET DEFAULT nextval('public.
 -- Data for Name: score_board; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.score_board VALUES (81, 'user_1792518068507', 2, 9);
+INSERT INTO public.score_board VALUES (80, 'user_1792518068508', 5, 9);
+INSERT INTO public.score_board VALUES (83, 'user_1792518620387', 2, 9);
+INSERT INTO public.score_board VALUES (82, 'user_1792518620388', 5, 9);
+INSERT INTO public.score_board VALUES (79, 'Aimee', 21, 9);
 
 
 --
 -- Name: score_board_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.score_board_id_seq', 1, false);
+SELECT pg_catalog.setval('public.score_board_id_seq', 83, true);
 
 
 --

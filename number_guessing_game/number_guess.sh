@@ -26,7 +26,6 @@ else
 fi
 
 RANDOM_NUM=$(($MIN + $RANDOM % $MAX))
-echo "$RANDOM_NUM"
 
 echo "Guess the secret number between 1 and 1000:"
 read GUESS
